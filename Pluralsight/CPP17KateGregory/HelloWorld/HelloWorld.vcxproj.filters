@@ -18,22 +18,19 @@
     <ClCompile Include="HelloWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< 0e0fed1bc1778bb3d93d37bf026d39b6f4d1e77c
-=======
-    <ClCompile Include="Person.cpp">
+    <ClCompile Include="Tweeter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tweeter.cpp">
+    <ClCompile Include="Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Person.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Tweeter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
->>>>>>> Inheritance Tweeter Class
+    <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

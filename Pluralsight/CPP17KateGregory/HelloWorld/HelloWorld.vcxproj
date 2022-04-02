@@ -140,15 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp" />
-<<<<<<< 0e0fed1bc1778bb3d93d37bf026d39b6f4d1e77c
-=======
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Tweeter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
     <ClInclude Include="Tweeter.h" />
->>>>>>> Inheritance Tweeter Class
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
