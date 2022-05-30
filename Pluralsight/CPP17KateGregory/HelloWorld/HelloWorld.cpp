@@ -29,7 +29,7 @@ int main()
 	std::cout << "after innermost block" << std::endl;
 	std::string name = p1.getName();
 
-	std::cout << "Hello Motto!" << std::endl;
+	std::cout << "t1: " << p1.getName() << " " << p1.GetNumber() << std::endl;
 
 	system("pause");
 	return 0;

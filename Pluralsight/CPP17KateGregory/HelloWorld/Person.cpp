@@ -12,14 +12,14 @@ Person::Person(std::string first, std::string last, int arbitrary)
 
 Person::Person() : arbitrarynumber(0)
 {
-	cout << "constructing " << firstname << " " << lastname << endl;
+	cout << "constructing " << getName() << endl;
 }
 
 Person::~Person() {
-	cout << "destructing " << firstname << " " << lastname << endl;
+	cout << "destructing " << getName() << endl;
 }
 
-std::string Person::getName() 
+std::string Person::getName() const 
 {
 	return firstname + " " + lastname;
 }
