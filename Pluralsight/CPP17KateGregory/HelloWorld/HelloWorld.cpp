@@ -31,6 +31,18 @@ int main()
 
 	std::cout << "t1: " << p1.getName() << " " << p1.GetNumber() << std::endl;
 
+	// Operator Overloading
+	Person p2("Someone", "Else", 456);
+	std::cout << "p1 is";
+	if (!(p1 < p2))
+		std::cout << "not ";
+	std::cout << "less than 300" << std::endl;
+
+	std::cout << "300 is ";
+	if (!(300 < p1))
+		std::cout << "not ";
+	std::cout << "less than p1" << std::endl;
+
 	system("pause");
 	return 0;
 }
