@@ -51,4 +51,6 @@ int main()
 
 	// references are set, pointers can be rearranged to 
 	// repoint somehwere else
+
+	return 0;
 }
